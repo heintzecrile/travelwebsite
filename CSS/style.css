@@ -1,0 +1,484 @@
+body {
+  font-family: "Poppins", sans-serif;
+  color: #333;
+}
+
+hr {
+  margin: 50px auto;
+  width: 95%;
+}
+
+h2 {
+  font-family: "Poppins-bold", sans-serif;
+  padding-bottom: 20px;
+  text-align: center;
+  font-weight: 700;
+}
+
+h3 {
+  text-align: center;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 35px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+h5 {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+}
+
+h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+}
+
+#title {
+  background-color: #fff;
+  color: #fff;
+}
+
+#header {
+  padding: 5%;
+}
+
+#sin-header {
+  padding: 5%;
+}
+
+#features {
+  padding: 3% 15%;
+}
+
+#primary-information {
+  padding: 3% 15%;
+}
+
+#secondary-information {
+  padding: 1% 15%;
+}
+
+#travel-information {
+  padding: 3% 15%;
+}
+
+.main-logo {
+  width: 40%;
+}
+
+.navbar {
+  padding: 0 0 10px;
+  color: #fcfbf4;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.nav-link {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  color: #dc8b39;
+}
+
+.carousel-caption {
+  margin-left: 15px;
+}
+.quote {
+  font-weight: 500;
+  font-size: 40px;
+  text-align: left;
+  color: #fff;
+  line-height: 1.1;
+  letter-spacing: -1px;
+  text-shadow: 5px 5px 10px #000;
+  font-style: italic;
+}
+
+.quote-1 {
+  width: 500px;
+}
+
+.quote-2 {
+  width: 800px;
+}
+
+.feature-box {
+  text-align: center;
+  justify-content: center;
+}
+
+.feature-icon {
+  color: #db8839;
+  margin-bottom: 20px;
+}
+
+.feature-icon:hover {
+  color: #f9db79;
+}
+
+.social-icon {
+  margin: 20px 20px 20px;
+}
+
+.social-icon1:hover {
+  color: purple;
+}
+
+.social-icon2:hover {
+  color: #3b5998;
+}
+
+.social-icon3:hover {
+  color: #ff0000;
+}
+
+.com-photo {
+  width: 600px;
+  height: 400px;
+}
+
+.event-photo,
+.discover-photo {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.event-photo:hover,
+.discover-photo:hover {
+  box-shadow: 0 10px 20px 5px #dc8b3993;
+}
+
+.content-event,
+.content-discover {
+  text-align: left;
+  padding-bottom: 15px;
+  margin: 40px 50px;
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.com-box {
+  width: 650px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 40px;
+}
+
+.carosin-para {
+  color: #fff;
+}
+
+.card-title {
+  color: #db8839;
+  font-size: 12px;
+}
+
+.sin-h2 {
+  text-align: left;
+  font-size: 80px;
+}
+
+.sin-flag,
+.merlion-icon,
+.chickenrice-icon {
+  width: 75px;
+  height: 75px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 10px;
+}
+
+.travel-info {
+  padding-bottom: 5%;
+}
+
+.secondary-container {
+  text-align: center;
+}
+
+.info-icon {
+  margin-bottom: 15%;
+}
+
+.blog-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
+  flex-wrap: wrap;
+}
+
+.blog-box {
+  width: 250px;
+  background-color: #fff;
+  border: 1px solid #ececec;
+  margin: 20px;
+}
+
+.blog-img {
+  width: 100%;
+  height: 20%;
+}
+
+.blog-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.blog-text {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-text span {
+  color: #db8839;
+  font-size: 0.9rem;
+}
+
+.blog-text .blog-title {
+  font-size: 1.3rem;
+  font-weight: 350;
+  color: #333;
+  text-decoration: none;
+}
+
+.blog-text .blog-title:hover {
+  color: #db8839;
+  transition: all ease 0.3s;
+}
+
+.blog-text p {
+  font-size: 0.9rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 20px 0px;
+}
+
+.blog-text a {
+  color: #333;
+  text-decoration: none;
+}
+
+.blog-text a:hover {
+  color: #db8839;
+  transition: all ease 0.3s;
+}
+
+.accomodations {
+  margin-top: 50px;
+}
+
+.banner-card {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  padding: 20px;
+  text-shadow: 5px 5px 10px #000;
+}
+
+.banner-text h4 {
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.different {
+  color: #db8839;
+}
+
+.singaporeans {
+  width: 525px;
+  height: 400px;
+}
+
+.howto-local {
+  text-align: center;
+  justify-content: center;
+  padding: 0px 0 70px;
+}
+
+.local-box {
+  text-align: center;
+  justify-content: center;
+}
+
+.local-icon {
+  margin-bottom: 25px;
+}
+
+.golocal-hr {
+  width: 1050px;
+}
+
+.final-local {
+  text-align: center;
+  justify-content: center;
+}
+
+.btn:link,
+.btn:visited {
+  background-color: #dc8b39;
+  color: #412f2d;
+  font-weight: 700;
+  display: block;
+  border-radius: 100px;
+  font-size: 20px;
+  margin-top: 20px;
+  width: 250px;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #f9db79;
+}
+
+.what-is-golocal {
+  margin-bottom: 80px;
+}
+
+.input-group {
+  width: 350px;
+}
+
+/* itinerary */
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.wrapper .static-txt {
+  color: #333;
+  font-size: 60px;
+  font-weight: 700;
+}
+.wrapper .dynamic-txts {
+  margin-left: 15px;
+  height: 90px;
+  line-height: 90px;
+  overflow: hidden;
+}
+.dynamic-txts li {
+  list-style: none;
+  color: #db8839;
+  font-size: 60px;
+  font-weight: 700;
+  position: relative;
+  top: 0;
+  animation: slide 12s steps(4) infinite;
+}
+@keyframes slide {
+  100% {
+    top: -360px;
+  }
+}
+.dynamic-txts li span {
+  position: relative;
+  margin: 5px 0;
+  line-height: 90px;
+}
+.dynamic-txts li span::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #ffffff;
+  border-left: 2px solid #fc6d6d;
+  animation: typing 3s steps(10) infinite;
+}
+@keyframes typing {
+  40%,
+  60% {
+    left: calc(100% + 30px);
+  }
+  100% {
+    left: 0;
+  }
+}
+
+.car-siniti {
+  width: 1440px;
+  height: 500px;
+}
+
+.car-cap-siniti {
+  font-size: 80px;
+  font-weight: 500;
+  text-shadow: 5px 5px 10px #000;
+  margin-bottom: 80px;
+}
+
+.head-siniti {
+  margin-top: 100px;
+}
+
+.blogpost-author {
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+
+.blog-link {
+  display: block;
+  font-size: 18px;
+  color: #db8839;
+  text-decoration: none;
+}
+
+.blogpost {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  list-style: none;
+}
+
+h3 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #333;
+}
+
+.transpo {
+  display: flex;
+  text-align: center;
+  list-style: none;
+  font-size: 16px;
+  gap: 75px;
+  margin: 75px;
+}
+
+.transpo-icon {
+  color: #db8839;
+  margin-bottom: 50px;
+}
+
+.transpo-icon:hover {
+  color: #f9db79;
+}
